@@ -1,15 +1,33 @@
 # Curry Shots Analysis — Power BI Dashboard
 
+## Project Overview
 This Power BI project analyzes Stephen Curry’s shooting performance across NBA teams and shot ranges. The report leverages Power Query and DAX to transform raw data into actionable insights, presented through interactive dashboards.
 
 ## Files Included
-- Curry Shots Analysis.pbix
-- Excel Files
+- Curry Shots Analysis.pbix 
+- Excel Files - Data Source
   - CurryShots.csv
   - NBA_teamlist.csv
-- Nba_court.jpg
+- Nba_court.jpg - Image for Visual
+- dashboard-preview1 - Dashboard Screenshot
+- dashboard.preview2
 
-## Power Query Editor (Data Preparation)
+## Features / Highlights
+- **KPI Summary**: Total FG Attempted, FG Made, Field Goal Percentage (FG%)
+- **Franchise Analysis**: Top 3 opponent teams by total field goals made
+- **Shot Distance Grouping**: FG% by predefined shot distance ranges
+- **Shot Chart**: Make vs Miss visualized across court area (scatter plot)
+- **Distance-wise Analysis**: Shot attempts by exact distance (0–40 ft) using clustered column chart
+- **Interactive Filters**: Season-level filters to customize views
+
+## Tools & Techniques
+- Power BI Desktop
+  - Power Query Editor
+  - DAX (for KPIs and calculations)
+  - Data Groups (grouping shot distance)
+  - Dashboard design with consistent color, font, and layout
+    
+## Data Preparation 
 ### Steps performed in Power Query:
 - Removed irrelevant columns
 - Renamed columns for clarity and consistency
@@ -30,35 +48,16 @@ Custom calculations were made using key DAX functions:
 | `DISTINCTCOUNT()` | Counts unique values like total opponents or number of games                             |
 | `DIVIDE()`        | Performs division (e.g., FG% = FG Made / FG Attempted)    |
 
-
-## Report Pages
-### 1. Franchise-wise FG Analysis
--	Shows Curry’s field goal stats against different NBA teams
--	Visuals include:
-    - KPI cards (Total FG Attempted, Made, FG%)
-    - Top 3 opponent teams by total FGs made
-    - Page-level filters (like season) enable custom views
-### 2. Shot Range Analysis
-- Groups FG attempts by shot distance
-- Includes:
-  - KPI cards (e.g., Longest & Median Shot Distance)
-  - FG% by distance ranges
-  - Shot chart (scatter plot: Make vs Miss across court)
-  - Clustered column chart of shot attempts vs exact distance (0–40 ft)
-
 ## Key Insights
 - Stephen Curry’s shot distances and field goal attempts vary by season, with a consistent trend of high-volume long-range shots (23ft+).
 - The top 3 teams Curry scores most against update per selected season, revealing how matchups and performance evolve year by year.
 - His highest accuracy often remains close to the basket (0–4 ft), though efficiency in long-range shooting varies season to season.
 
-## Tools & Techniques
-- Power BI Desktop
-  - Power Query Editor
-  - DAX (for KPIs and calculations)
-  - Data Groups (grouping shot distance)
-  - Dashboard design with consistent color, font, and layout
+## Dashboard Preview 
+<img width="1330" height="749" alt="dashboard-preview2" src="https://github.com/user-attachments/assets/9ab86fe4-8aaf-4961-b454-d0b87c2f40bb" />
+<img width="1329" height="744" alt="dashboard-preview1" src="https://github.com/user-attachments/assets/c73616e2-3f02-4be6-aac6-ccd2cfa8ee13" />
 
-## Optional Enhancements
+## Future Enhancements
 - Add trend visuals across seasons or time periods
 - Benchmark against league averages or other players
 - Incorporate bookmarks for toggling between filters
