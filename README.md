@@ -3,6 +3,10 @@
 ## Project Overview
 This Power BI project analyzes Stephen Curry’s shooting performance across NBA teams and shot ranges. The report leverages Power Query and DAX to transform raw data into actionable insights, presented through interactive dashboards.
 
+## Dashboard Preview 
+<img width="1330" height="749" alt="dashboard-preview2" src="https://github.com/user-attachments/assets/9ab86fe4-8aaf-4961-b454-d0b87c2f40bb" />
+<img width="1329" height="744" alt="dashboard-preview1" src="https://github.com/user-attachments/assets/c73616e2-3f02-4be6-aac6-ccd2cfa8ee13" />
+
 ## Files Included
 - Curry Shots Analysis.pbix 
 - Excel Files - Data Source
@@ -52,10 +56,6 @@ Custom calculations were made using key DAX functions:
 - Stephen Curry’s shot distances and field goal attempts vary by season, with a consistent trend of high-volume long-range shots (23ft+).
 - The top 3 teams Curry scores most against update per selected season, revealing how matchups and performance evolve year by year.
 - His highest accuracy often remains close to the basket (0–4 ft), though efficiency in long-range shooting varies season to season.
-
-## Dashboard Preview 
-<img width="1330" height="749" alt="dashboard-preview2" src="https://github.com/user-attachments/assets/9ab86fe4-8aaf-4961-b454-d0b87c2f40bb" />
-<img width="1329" height="744" alt="dashboard-preview1" src="https://github.com/user-attachments/assets/c73616e2-3f02-4be6-aac6-ccd2cfa8ee13" />
 
 ## Future Enhancements
 - Add trend visuals across seasons or time periods
