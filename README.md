@@ -1,7 +1,6 @@
 # Curry Shots Analysis — Power BI Dashboard
 
-## Project Overview
-This Power BI project analyzes Stephen Curry’s shooting performance across NBA teams and shot ranges. The report leverages Power Query and DAX to transform raw data into actionable insights, presented through interactive dashboards.
+This repository contains the full technical implementation of the Stephen Curry Shots Analysis dashboard in Power BI. It includes the dataset, .pbix file, Power Query transformations, DAX measures, and dashboard visuals.
 
 ## Dashboard Preview 
 <img width="1330" height="749" alt="dashboard-preview2" src="https://github.com/user-attachments/assets/9ab86fe4-8aaf-4961-b454-d0b87c2f40bb" />
@@ -16,6 +15,12 @@ This Power BI project analyzes Stephen Curry’s shooting performance across NBA
 - dashboard-preview1 - Dashboard Screenshot
 - dashboard.preview2
 
+## Tools & Techniques
+- Power BI Desktop
+  - Power Query Editor
+  - DAX (for KPIs and calculations)
+  - Data Groups (grouping shot distance)
+
 ## Features / Highlights
 - **KPI Summary**: Total FG Attempted, FG Made, Field Goal Percentage (FG%)
 - **Franchise Analysis**: Top 3 opponent teams by total field goals made
@@ -23,13 +28,6 @@ This Power BI project analyzes Stephen Curry’s shooting performance across NBA
 - **Shot Chart**: Make vs Miss visualized across court area (scatter plot)
 - **Distance-wise Analysis**: Shot attempts by exact distance (0–40 ft) using clustered column chart
 - **Interactive Filters**: Season-level filters to customize views
-
-## Tools & Techniques
-- Power BI Desktop
-  - Power Query Editor
-  - DAX (for KPIs and calculations)
-  - Data Groups (grouping shot distance)
-  - Dashboard design with consistent color, font, and layout
     
 ## Data Preparation 
 ### Steps performed in Power Query:
