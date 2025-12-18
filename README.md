@@ -52,11 +52,6 @@ Custom calculations were made using key DAX functions:
 | `DISTINCTCOUNT()` | Counts unique values like total opponents or number of games                             |
 | `DIVIDE()`        | Performs division (e.g., FG% = FG Made / FG Attempted)    |
 
-## Key Insights
-- Stephen Curry’s shot distances and field goal attempts vary by season, with a consistent trend of high-volume long-range shots (23ft+).
-- The top 3 teams Curry scores most against update per selected season, revealing how matchups and performance evolve year by year.
-- His highest accuracy often remains close to the basket (0–4 ft), though efficiency in long-range shooting varies season to season.
-
 ## Future Enhancements
 - Add trend visuals across seasons or time periods
 - Benchmark against league averages or other players
